@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        CarSell car1 = new CarSell(0, true, 1.5, 2020, 5000000);
-        CarSell car2 = new CarSell(1, true, 2.0, 2019, 3000000);
-        CarSell car3 = new CarSell(2, false, 1.8, 2013, 1100000);
+        CarInfo car1 = new CarInfo(0, true, 1.5, 2020, 5000000);
+        CarInfo car2 = new CarInfo(1, true, 2.0, 2019, 3000000);
+        CarInfo car3 = new CarInfo(2, false, 1.8, 2013, 1100000);
 
         System.out.println("У нас есть марки машин: \n 1 - Audi\n 2 - BMW \n 3 - Honda.");
         System.out.println("Введите номер интересующей Вас марки машины:");
